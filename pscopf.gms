@@ -580,9 +580,9 @@ jkVoltageMagnitudeMaintenanceViolationDef.scale(j,k)$(not kBase(k) and sum(l$(lk
 pscopf.optfile=0;
 $onecho > knitro.opt
 feastol 1e-10
-opttol 1e-6
+opttol 1e-8
 maxcgit 10
-ftol 1e-6
+ftol 1e-8
 ftol_iters 3
 maxtime_real 6000
 $offecho
